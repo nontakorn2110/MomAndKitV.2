@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5E7F8"
+    tools:context=".Food">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:text="โภชนาการ"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <ImageButton
+        android:id="@+id/btnback"
+        android:layout_width="30dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:background="#F5E7F8"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_baseline_arrow_back_24" />
+    A
+    <ImageButton
+        android:id="@+id/btn_food1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:background="#F5E7F8"
+        android:scaleType="fitCenter"
+        android:src="@drawable/food1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/text_food1"
+        android:layout_width="35dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="180dp"
+        android:text="ธัญพืช"
+        android:textColor="@android:color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btn_food2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="120dp"
+        android:background="#F5E7F8"
+        android:scaleType="fitCenter"
+        android:src="@drawable/food2"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/text_food2"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="180dp"
+        android:text="ผัก"
+        android:textColor="@android:color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btn_food3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="120dp"
+        android:background="#F5E7F8"
+        android:scaleType="fitCenter"
+        android:src="@drawable/food3"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/text_food3"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="180dp"
+        android:text="ถั่ว"
+        android:textColor="@android:color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btn_food4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="305dp"
+        android:layout_marginTop="120dp"
+        android:background="#F5E7F8"
+        android:scaleType="fitCenter"
+        android:src="@drawable/food4"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/text_food4"
+        android:layout_width="110dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="180dp"
+        android:text="ผลิตภัณฑ์จากนมและถั่ว"
+        android:textColor="@android:color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btn_food5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="240dp"
+        android:background="#F5E7F8"
+        android:scaleType="fitCenter"
+        android:src="@drawable/food5"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/text_food5"
+        android:layout_width="70dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="290dp"
+        android:text="อาหารสำเร็จรูป"
+        android:textColor="@android:color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btn_food6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="225dp"
+        android:background="#F5E7F8"
+        android:scaleType="fitCenter"
+        android:src="@drawable/food6"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/text_food6"
+        android:layout_width="50dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="122dp"
+        android:layout_marginTop="291dp"
+        android:text="เครื่องปรุง"
+        android:textColor="@android:color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btn_food7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="240dp"
+        android:background="#F5E7F8"
+        android:scaleType="fitCenter"
+        android:src="@drawable/food7"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/text_food7"
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="293dp"
+        android:text="สมุนไพร"
+        android:textColor="@android:color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btn_food8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="310dp"
+        android:layout_marginTop="240dp"
+        android:background="#F5E7F8"
+        android:scaleType="fitCenter"
+        android:src="@drawable/food8"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/text_food8"
+        android:layout_width="30dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="295dp"
+        android:text="ผลไม้"
+        android:textColor="@android:color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btn_food9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:background="#F5E7F8"
+        android:scaleType="fitCenter"
+        android:src="@drawable/food9"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/text_food9"
+        android:layout_width="60dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="410dp"
+        android:text="ของทานเล่น"
+        android:textColor="@android:color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btn_food10"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="335dp"
+        android:background="#F5E7F8"
+        android:scaleType="fitCenter"
+        android:src="@drawable/food10"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/text_food10"
+        android:layout_width="70dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="410dp"
+        android:text="อาหารทะเล"
+        android:textColor="@android:color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btn_food11"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="330dp"
+        android:background="#F5E7F8"
+        android:scaleType="fitCenter"
+        android:src="@drawable/food11"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/text_food11"
+        android:layout_width="50dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="410dp"
+        android:text="เครื่องดื่ม"
+        android:textColor="@android:color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btn_food12"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="340dp"
+        android:background="#F5E7F8"
+        android:scaleType="fitCenter"
+        android:src="@drawable/food12"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/text_food12"
+        android:layout_width="40dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="410dp"
+        android:text="เนื้อสัตว์"
+        android:textColor="@android:color/black"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

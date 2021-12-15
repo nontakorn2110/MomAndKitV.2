@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5E7F8"
+    tools:context=".food6"
+    tools:ignore="SpeakableTextPresentCheck" >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textfood1"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="30dp"
+            android:text="เครื่องปรุง"
+            android:textColor="@android:color/black"
+            android:textSize="20dp" />
+
+
+        <ImageButton
+            android:id="@+id/btnback"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:background="#F5E7F8"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_baseline_arrow_back_24"/>
+
+
+        <TextView
+            android:layout_width="363dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/box" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="130dp"
+            android:src="@drawable/seaso1" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="85dp"
+            android:text="น้ำมันมะกอก"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="110dp"
+            android:text="@string/textseasoning1"
+            android:textColor="@color/black"
+            android:textSize="12.2dp" />
+
+
+        <TextView
+            android:layout_width="363dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="315dp"
+            android:background="@drawable/box" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="355dp"
+            android:src="@drawable/seaso2" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="325dp"
+            android:text="ซีอิ๊วหวานออร์แกนิค"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="350dp"
+            android:text="@string/textseasoning2"
+            android:textColor="@color/black"
+            android:textSize="12.2dp" />
+
+
+        <TextView
+            android:layout_width="363dp"
+            android:layout_height="190dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="530dp"
+            android:background="@drawable/box" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="575dp"
+            android:src="@drawable/seaso3" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="540dp"
+            android:text="น้ำตาลช่อดอกมะพร้าว"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="570dp"
+            android:text="@string/textseasoning3"
+            android:textColor="@color/black"
+            android:textSize="12.2dp" />
+
+
+        <TextView
+            android:layout_width="363dp"
+            android:layout_height="190dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="735dp"
+            android:background="@drawable/box" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="790dp"
+            android:src="@drawable/seaso4" />
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="745dp"
+            android:text="ผักผงรวม ผสมไก่ผง"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="775dp"
+            android:text="@string/textseasoning4"
+            android:textColor="@color/black"
+            android:textSize="12.2dp" />
+
+
+
+
+
+        <TextView
+            android:layout_width="363dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="940dp"
+            android:background="@drawable/box" />
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1025dp"
+            android:src="@drawable/seaso5" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="950dp"
+            android:text="เกลือหิมาลายันบดผง ออแกนิค"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="980dp"
+            android:text="@string/textseasoning5"
+            android:textColor="@color/black"
+            android:textSize="12.2dp" />
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
